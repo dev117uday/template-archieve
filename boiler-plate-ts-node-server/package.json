@@ -1,0 +1,35 @@
+{
+  "name": "boiler-plate-ts-node-server-heroku",
+  "version": "0.0.1",
+  "description": "Boilerplate typescript node.js server to deploy on heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "postinstall": "tsc",
+    "start": "node server.js",
+    "dev": "ts-node-dev server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev117uday/backend-home-fill.git"
+  },
+  "author": "Uday Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev117uday/backend-home-fill/issues"
+  },
+  "homepage": "https://github.com/dev117uday/backend-home-fill#readme",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.1"
+  }
+}
