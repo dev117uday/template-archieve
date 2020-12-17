@@ -6,3 +6,5 @@ Contains :
 - webpack
 - vue-firebase with auth
 - pwa-template (there are better ways now)
+- Heorku go template
+
